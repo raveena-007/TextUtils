@@ -1,0 +1,15 @@
+.accordation-button::after {
+  filter: invert(1);
+}
+
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+}

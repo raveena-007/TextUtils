@@ -5,7 +5,7 @@ import Navbar1 from './Components/Navbar1';
 import TextForm1 from './Components/TextForm1';
 import React, { useState } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
